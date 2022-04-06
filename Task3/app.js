@@ -33,7 +33,7 @@ function palindrome(str)
     {
         
 let last2 = str.length - 1;
-        for (let i = 0 ; i < len; i++) {
+        for (let i = 0 ; i < len/2; i++) {
             if(str[i] != str[last2])
             {
                 answer = false;
@@ -51,4 +51,4 @@ let last2 = str.length - 1;
 }
 
 
-document.body.innerHTML = palindrome(stringg);
+// document.body.innerHTML = palindrome(stringg);
